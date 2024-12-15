@@ -233,8 +233,6 @@ spec:
         - $(params.build-args[*])
       - name: BUILD_ARGS_FILE
         value: $(params.build-args-file)
-      - name: BUILD_ARGS_FILE
-        value: $(params.build-args-file)
       - name: STORAGE_DRIVER
         value: overlay
       runAfter:
